@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="NAxQPD" name="Erosion Delay" projectType="audioplug" jucerVersion="5.4.3"
+              pluginFormats="buildStandalone,buildVST,buildVST3" pluginManufacturer="Stuart Dames">
+  <MAINGROUP id="xdwkrg" name="Erosion Delay">
+    <GROUP id="{D371D8E9-C34A-27E6-3466-FB3C9435528E}" name="Meters">
+      <FILE id="aUp7GO" name="SRDVuMeter.cpp" compile="1" resource="0" file="Source/SRDVuMeter.cpp"/>
+      <FILE id="mF9hQY" name="SRDVuMeter.h" compile="0" resource="0" file="Source/SRDVuMeter.h"/>
+    </GROUP>
+    <GROUP id="{991024E1-35ED-3540-29BD-72BAAE2D8C9C}" name="Managers">
+      <FILE id="mNBFsL" name="SRDPresetManager.cpp" compile="1" resource="0"
+            file="Source/SRDPresetManager.cpp"/>
+      <FILE id="m32COW" name="SRDPresetManager.h" compile="0" resource="0"
+            file="Source/SRDPresetManager.h"/>
+    </GROUP>
+    <GROUP id="{A0D46612-090B-6BB5-B090-0E879982C809}" name="Parameter Control">
+      <FILE id="LYDRVJ" name="SRDParameterComboBox.cpp" compile="1" resource="0"
+            file="Source/SRDParameterComboBox.cpp"/>
+      <FILE id="HY7Km3" name="SRDParameterComboBox.h" compile="0" resource="0"
+            file="Source/SRDParameterComboBox.h"/>
+      <FILE id="DOXDxf" name="SRDParameterSlider.cpp" compile="1" resource="0"
+            file="Source/SRDParameterSlider.cpp"/>
+      <FILE id="WlEet7" name="SRDParameterSlider.h" compile="0" resource="0"
+            file="Source/SRDParameterSlider.h"/>
+    </GROUP>
+    <GROUP id="{0BBFD517-79D6-EFE3-FFBB-2E20098A48AF}" name="Panels">
+      <FILE id="faf4SH" name="SRDPanelBase.cpp" compile="1" resource="0"
+            file="Source/SRDPanelBase.cpp"/>
+      <FILE id="apfYO2" name="SRDPanelBase.h" compile="0" resource="0" file="Source/SRDPanelBase.h"/>
+      <FILE id="ZIDJby" name="SRDCenterPanel.cpp" compile="1" resource="0"
+            file="Source/SRDCenterPanel.cpp"/>
+      <FILE id="aDP8DQ" name="SRDCenterPanel.h" compile="0" resource="0"
+            file="Source/SRDCenterPanel.h"/>
+      <FILE id="pnHzlD" name="SRDCenterPanelMenuBar.cpp" compile="1" resource="0"
+            file="Source/SRDCenterPanelMenuBar.cpp"/>
+      <FILE id="jNldZ2" name="SRDCenterPanelMenuBar.h" compile="0" resource="0"
+            file="Source/SRDCenterPanelMenuBar.h"/>
+      <FILE id="KmTU1c" name="SRDFxPanel.cpp" compile="1" resource="0" file="Source/SRDFxPanel.cpp"/>
+      <FILE id="R5RXqO" name="SRDFxPanel.h" compile="0" resource="0" file="Source/SRDFxPanel.h"/>
+      <FILE id="dD5O4e" name="SRDGainPanel.cpp" compile="1" resource="0"
+            file="Source/SRDGainPanel.cpp"/>
+      <FILE id="f5LEuY" name="SRDGainPanel.h" compile="0" resource="0" file="Source/SRDGainPanel.h"/>
+      <FILE id="BXa3sG" name="SRDMainPanel.cpp" compile="1" resource="0"
+            file="Source/SRDMainPanel.cpp"/>
+      <FILE id="llfxXX" name="SRDMainPanel.h" compile="0" resource="0" file="Source/SRDMainPanel.h"/>
+      <FILE id="XTLsNM" name="SRDTopPanel.cpp" compile="1" resource="0" file="Source/SRDTopPanel.cpp"/>
+      <FILE id="ZhkS8C" name="SRDTopPanel.h" compile="0" resource="0" file="Source/SRDTopPanel.h"/>
+    </GROUP>
+    <GROUP id="{5AA76913-EB27-E018-6DD8-43AA7FCD7C68}" name="Helpers">
+      <FILE id="ttrl28" name="SRDAudioHelpers.h" compile="0" resource="0"
+            file="Source/SRDAudioHelpers.h"/>
+      <FILE id="H7R0XN" name="SRDHelperFunctions.h" compile="0" resource="0"
+            file="Source/SRDHelperFunctions.h"/>
+      <FILE id="NqF1tK" name="SRDInterfaceDefines.h" compile="0" resource="0"
+            file="Source/SRDInterfaceDefines.h"/>
+      <FILE id="olrGBb" name="SRDLookAndFeel.h" compile="0" resource="0"
+            file="Source/SRDLookAndFeel.h"/>
+      <FILE id="TJGF3z" name="SRDParameters.h" compile="0" resource="0" file="Source/SRDParameters.h"/>
+    </GROUP>
+    <GROUP id="{D0FAE3C9-DF93-550A-3B8C-EDB22BFFE2AD}" name="DSP">
+      <FILE id="PQgY30" name="SRDDelay.cpp" compile="1" resource="0" file="Source/SRDDelay.cpp"/>
+      <FILE id="VK5uTe" name="SRDDelay.h" compile="0" resource="0" file="Source/SRDDelay.h"/>
+      <FILE id="zHSvau" name="SRDGain.cpp" compile="1" resource="0" file="Source/SRDGain.cpp"/>
+      <FILE id="zBHIMN" name="SRDGain.h" compile="0" resource="0" file="Source/SRDGain.h"/>
+      <FILE id="KcdPFk" name="SRDLfo.cpp" compile="1" resource="0" file="Source/SRDLfo.cpp"/>
+      <FILE id="mjcaEF" name="SRDLfo.h" compile="0" resource="0" file="Source/SRDLfo.h"/>
+    </GROUP>
+    <GROUP id="{F6B1BAFA-976D-F4E5-6D1C-6F91B92F080A}" name="Source">
+      <FILE id="iEz1qN" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="IMtkHk" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="mKDunA" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="IAvAcl" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{18B316B7-B32A-B3BC-DFDF-E0C6FFD33C2D}" name="Assets">
+      <FILE id="zhpPa7" name="srd_back_001.png" compile="0" resource="1"
+            file="MyPluginBackground 02/srd_back_001.png"/>
+      <FILE id="Wjfxw0" name="srd_back_002.png" compile="0" resource="1"
+            file="MyPluginBackground 02/srd_back_002.png"/>
+      <FILE id="lNLneC" name="srd_knob_001.png" compile="0" resource="1"
+            file="Assets/srd_knob_001.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Modules"/>
+        <MODULEPATH id="juce_core" path="../../Modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Modules"/>
+        <MODULEPATH id="juce_events" path="../../Modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
